@@ -151,10 +151,10 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 100px;
-    justify-content: center;
+    justify-content: space-around;
     flex-basis: fill;
     height: 500px;
+    
 }
 footer  a {
     font-family: Raleway, sans-serif; 
@@ -179,11 +179,6 @@ footer  a {
     width: 40px;
     border: 2px solid beige;
     border-radius: 50%;
-    
-}
-nav a img:hover{
-    background-color: transparent;
-}
 }
 .redesContacto{
     font-family: Raleway, sans-serif; 
@@ -192,10 +187,17 @@ nav a img:hover{
     font-size: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding-left: 200px;
+    justify-content: center;
     padding-top: 20px;
-    border: 3px solid red;
     text-align: center;
+    border: 2px solid black;
+    width: 400px;
+}
+.redesContacto #igicon:hover{
+    color: blueviolet; 
+}
+.redesContacto #wppicon:hover{
+    color: green;
 }
 @media (max-width: 720px) {
     .encabezado{
@@ -203,6 +205,13 @@ nav a img:hover{
         background-size: cover;
         width: 100%;
     }
+    .redesContainer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex-basis: fill;
+        height: 200px;
+        }
     #barranav {
         font-size: 15px;
         display: none;
@@ -218,12 +227,14 @@ nav a img:hover{
     -moz-user-select: none;
     user-select: none;
   }
-
+    
+}
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
   }
+
   .flex-equal > * {
     flex: 1;
   }

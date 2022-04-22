@@ -1,0 +1,59 @@
+main h1 {
+  font-size: 150px;
+  font-weight: 200px;
+  background-image: url("../assets/imagenes/imgprinc.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  padding-left: 50px;
+  color: #F7E2E2;
+  font-family: 'Josefin Slab', serif;
+  border: 2px solid black;
+  font-weight: bolder;
+  -webkit-text-stroke: 2px #111010;
+}
+
+header li {
+  text-decoration: none;
+  color: black;
+  width: auto;
+  margin: 10px;
+  padding: auto;
+  display: inline-block;
+  padding: 10px;
+}
+
+header nav {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  word-spacing: 10px;
+  border: 2px solid black;
+  text-align: center;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(72%, #1e0046), color-stop(100%, #300041), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #1e0046 72%, #300041 100%, #00d4ff 100%);
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  background-color: beige;
+  color: black;
+  padding: 5px 3px 5px 3px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+header #logo {
+  height: 40px;
+  width: 40px;
+  border: 2px solid beige;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=main.css.map */

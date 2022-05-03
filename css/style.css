@@ -214,10 +214,10 @@ footer  a {
         }
     #barranav {
         font-size: 15px;
-        display: none;
     }
     .titulossec {
         font-size: 30px;
+        display: none;
     }
 }
 .container {
@@ -243,4 +243,6 @@ footer  a {
       flex: 1;
     }
   }
-  
+  .nosotros-imagen{
+      overflow: auto;
+  }

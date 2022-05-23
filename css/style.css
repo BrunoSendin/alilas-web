@@ -246,3 +246,6 @@ footer  a {
   .nosotros-imagen{
       overflow: auto;
   }
+  .nosotros-texto {
+      font-size: 25px;
+  }
